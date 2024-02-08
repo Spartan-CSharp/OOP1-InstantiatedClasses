@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleUI
 {
 	internal class Program
 	{
-		static void Main(string[] args)
+		private static void Main()
 		{
 			List<PersonModel> people = new List<PersonModel>();
 			bool isnotdone = true;
